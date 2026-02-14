@@ -63,7 +63,7 @@ function dist(a, b) {
   return Math.hypot(a.x - b.x, a.y - b.y);
 }
 
-// 🧠 GRAPH + LOGIC INTERACTION
+//  GRAPH LOGIC INTERACTION
 function logicInteraction() {
   let newScore = 0;
 
@@ -99,7 +99,7 @@ function logicInteraction() {
   scoreEl.textContent = score;
 }
 
-// 🖱 CLICK TO CHANGE COLOR
+//  CLICK TO CHANGE COLOR
 canvas.addEventListener("click", e => {
   const rect = canvas.getBoundingClientRect();
   const mx = e.clientX - rect.left;
